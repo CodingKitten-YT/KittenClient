@@ -1,0 +1,18 @@
+{
+  "name": "example-typescript-mod",
+  "version": "1.0.0",
+  "description": "Example typescript mod for eaglerforge.",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build-bun": "bun build --bundle ./src/main.ts --outdir=out/ --outfile=out/plugin.js --sourcemap=inline --watch --target browser --entry-naming EaglerForge-[hash].js",
+    "build-es": "esbuild --bundle ./src/main.ts --outfile=out/plugin.js --sourcemap=inline --watch=forever"
+  },
+  "author": "your name",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

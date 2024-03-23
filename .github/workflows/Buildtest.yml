@@ -1,0 +1,39 @@
+name: buildtest.exe
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setting environment...
+      uses: actions/setup-node@v2
+      with:
+        node-version: 21
+
+    - name: Installing dependencies..
+      run: npm install -g esbuild
+
+    - name: Building project..
+      run: esbuild --bundle src/Main.ts --outfile=out/plugin.js --sourcemap=inline # custom
+      env:
+        NODE_ENV: production
+
+    - name: Write changes to repository
+      uses: stefanzweifel/git-auto-commit-action@v5
+
+    - name: bad devs!!!!!
+      if: failure()
+      run: exit 1
