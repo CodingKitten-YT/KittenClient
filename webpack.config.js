@@ -5,11 +5,11 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/Main.ts",
+    main: "./src/Main.js", // Changed this from ts to js because I hate typescript (aka. I do not want to learn it)
   },
   output: {
     path: path.resolve(__dirname, './out'),
-    filename: package.name + ".js", // <--- Will be compiled to this single file
+    filename: package.name + ".js",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
