@@ -3,4 +3,4 @@ Keystrokes that work with WASD. They currently just appear when the player loads
 
 Heres an Screenshot of what the Keystrokes look like.
 
-![Preview](https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/screenshots/preview.png)
+![Preview](https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/preview.png)
