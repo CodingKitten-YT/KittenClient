@@ -4,7 +4,7 @@ Solar Client is a EaglerForge Client/Mod Menu made with their API/SDK and Javasc
 
 Mod Menu Keybind as of now is **Insert/INS Key**. (Customization will come soon)
 
-> Heres an Screenshot of what it look's like:<br> ![Preview](https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/preview.png)
+> Heres an Screenshot of what it look's like:<br> ![Preview](https://raw.githubusercontent.com/Hypverr/Solar-Client/main/images/preview.png)
 
 > [!NOTE]
 > Solar Client Icon Inspired By [**Solar Tweaks**](https://github.com/Solar-Tweaks) and [**Lunar Client**](https://www.lunarclient.com/).
