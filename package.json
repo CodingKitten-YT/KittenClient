@@ -1,6 +1,6 @@
 {
-  "name": "keystrokes-mod",
-  "version": "1.0.2",
+  "name": "solar-client",
+  "version": "2.1.2",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
