@@ -5,7 +5,7 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/Main.js", // Changed this from ts to js because I hate typescript (aka. I do not want to learn it)
+    main: "./src/Main.ts", // Changed this from ts to js because I hate typescript (aka. I do not want to learn it)
   },
   output: {
     path: path.resolve(__dirname, './out'),
