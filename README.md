@@ -7,4 +7,4 @@ Mod Menu Keybind as of now is **Right Shift**. (Customization will come soon)
 > Heres an Screenshot of what it look's like:<br> ![Preview](https://raw.githubusercontent.com/Hypverr/Solar-Client/main/images/preview.png)
 
 > [!NOTE]
-> Solar Client Icon Inspired By [**Solar Tweaks**](https://github.com/Solar-Tweaks) and [**Lunar Client**](https://www.lunarclient.com/).
+> Solar Client Icon is Made by <a href="https://www.flaticon.com/free-icons/sunset" title="sunset icons">Freepik</a>
