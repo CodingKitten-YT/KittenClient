@@ -8,9 +8,11 @@ export function CreateMenu() {
     isMenuOpen = true;
 
     const Holder = document.createElement("div");
+    //@ts-ignore
     Holder.style = "backdrop-filter: blur(2px);width: fit-content;height: fit-content;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);";
     Holder.id = "SCMM";
     const Menu = document.createElement("div");
+    //@ts-ignore
     Menu.style = `width: 65vw; height: 70vh; border-radius: 2.5vh; display: flex; flex-direction: column; padding: 2vh; background: rgba(50, 50, 50, 0.75); border: solid 0.1vw rgba(255, 255, 255, 0.5);`;
     Menu.innerHTML = `
         <div style="margin-bottom: 1vh; display: flex; flex-direction: row; align-items: center; justify-content: center; height: fit-content; width: 100%; color: #fff; gap: 1.5vw; font-family: 'Minecraftia', sans-serif;" margin-bottom: 1vh;>
